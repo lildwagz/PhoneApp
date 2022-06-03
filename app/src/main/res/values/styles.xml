@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Theme.Widget.Button.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="desc_text" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/proxima_nove_black</item>
+    </style>
+
+</resources>

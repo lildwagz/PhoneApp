@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PhoneFinder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="phone_cover">Phone cover</string>
+    <string name="error_message">Error:\n%1$s</string>
+    <string name="media_list_reload">Reload</string>
+    <string name="empty_result_message">There\'s nothing here...</string>
+    <string name="search_message">search any phones you like</string>
+
+
+    // Argument Keys
+    <string name="key_phone">keyPhone</string>
+    <string name="key_type">keyType</string>
+    <string name="brand_id">brandId</string>
+
+
+    <string name="search">Search</string>
+</resources>

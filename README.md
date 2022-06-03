@@ -1,5 +1,5 @@
 # PhoneApp
-this app provides to search any phone with its specifications, using
+this app provides to search any phone with its specifications, you can download it on playstore <a href="https://play.google.com/store/apps/details?id=lildwagz.com.phonefinder">here</a>
 
 #Screenshot
 

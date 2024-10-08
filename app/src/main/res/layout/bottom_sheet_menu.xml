@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_dialog"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="?colorPrimary"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:text="Other Options"/>
+
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_close_24"
+            app:backgroundTint="?colorSurface"
+            app:borderWidth="2dp"
+            app:elevation="4dp"
+            app:fabSize="mini"
+            app:tint="?colorPrimary" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/layoutBrands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <ImageView
+                app:tint="?colorPrimary"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_baseline_branding"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of Brands"
+                android:textColor="?colorPrimary"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutToByFans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_baseline_whatshot"
+                android:padding="6dp"
+                android:layout_marginEnd="8dp"
+                app:tint="?colorPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top By Fans"
+                android:textColor="?colorPrimary"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutTopByInterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_Interest"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_baseline_interest"
+                android:padding="6dp"
+                android:layout_marginEnd="8dp"
+                app:tint="?colorPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top By Interest"
+                android:textColor="?colorPrimary"
+                android:layout_gravity="center_vertical"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

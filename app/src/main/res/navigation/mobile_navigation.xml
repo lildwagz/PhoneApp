@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="lildwagz.com.phonefinder.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="@string/home">
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detail"
+        android:name="lildwagz.com.phonefinder.ui.detail.DetailFragment"
+        tools:layout="@layout/fragment_detail"
+        android:label="Detail">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="lildwagz.com.phonefinder.ui.favorite.FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"
+        android:label="Favorite">
+
+        <action
+            android:id="@+id/action_nav_favorite_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="lildwagz.com.phonefinder.ui.search.SearchFragment"
+        tools:layout="@layout/fragmet_search"
+        android:label="@string/search"
+        >
+        <action
+            android:id="@+id/action_nav_search_to_nav_detail"
+            app:destination="@id/nav_detail" />
+        <action
+            android:id="@+id/action_nav_search_to_nav_additional"
+            app:destination="@id/nav_additional" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_additional"
+        android:name="lildwagz.com.phonefinder.ui.additional.AdditionalFragment"
+        tools:layout="@layout/fragment_additional"
+        android:label="additional">
+        <action
+            android:id="@+id/action_nav_additional_to_nav_detail"
+            app:destination="@id/nav_detail" />
+        <action
+            android:id="@+id/action_nav_additional_to_nav_listbrandsFragment"
+            app:destination="@id/nav_listbrandsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_listbrandsFragment"
+        android:name="lildwagz.com.phonefinder.ui.additional.ListBrandsFragment"
+        tools:layout="@layout/fragment_list_brands"
+        android:label="List Phones">
+        <action
+            android:id="@+id/action_nav_listbrandsFragment_to_nav_detail"
+            app:destination="@id/nav_detail" />
+    </fragment>
+
+</navigation>

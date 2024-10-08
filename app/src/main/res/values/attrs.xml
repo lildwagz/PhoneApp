@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="InfoMessageView">
+        <attr name="info_text" format="string" />
+        <attr name="info_icon" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744919229929",
+    "project_id": "phonefinder-e5ef7",
+    "storage_bucket": "phonefinder-e5ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744919229929:android:ba8ffc0b83fc934bcc1778",
+        "android_client_info": {
+          "package_name": "lildwagz.com.phonefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744919229929-jqfreig09rrp7k90urbam5q5bba0vddv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY4LXkkO8SCOIvnB1rPJq9VUeiGEhJKCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744919229929-jqfreig09rrp7k90urbam5q5bba0vddv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
